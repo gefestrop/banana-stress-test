@@ -1,0 +1,51 @@
+/* Основной стиль */
+body {
+    margin: 0;
+    overflow: hidden;
+    background: linear-gradient(135deg, #74ebd5, #9face6); /* Красивый градиент */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Счётчик FPS */
+#fps {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 18px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Кнопка добавления бананов */
+button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #f9d423;
+    background: linear-gradient(135deg, #f9d423, #ff4e50);
+    border: none;
+    border-radius: 30px;
+    padding: 15px 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 15px rgba(255, 78, 80, 0.3);
+}
+
+button:hover {
+    background: linear-gradient(135deg, #ff4e50, #f9d423);
+    box-shadow: 0 15px 20px rgba(255, 78, 80, 0.4);
+    transform: translateY(-3px);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0 5px 10px rgba(255, 78, 80, 0.2);
+}
